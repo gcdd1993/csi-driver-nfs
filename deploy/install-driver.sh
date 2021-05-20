@@ -21,7 +21,7 @@ if [[ "$#" -gt 0 ]]; then
   ver="$1"
 fi
 
-repo="https://raw.githubusercontent.com/gcdd1993/csi-driver-nfs/$ver/deploy"
+repo="https://gitee.com/qq1398371419/csi-driver-nfs/raw/$ver/deploy"
 if [[ "$#" -gt 1 ]]; then
   if [[ "$2" == *"local"* ]]; then
     echo "use local deploy"
